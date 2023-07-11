@@ -1,0 +1,51 @@
+.leftside{
+    height: 100vh;
+    /* background-color: cadetblue; */
+     /* float: left; */
+} 
+.viewprofile{
+    outline: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.Balenq{
+    outline: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.mont{
+    outline: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.accst{
+    outline: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.log{
+    outline: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.del{
+    outline: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.icon{
+    outline: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    background-color: rgb(44, 90, 92);
+    
+}
+.rightside{
+    height: 10vh;
+    /* float: right; */
+}

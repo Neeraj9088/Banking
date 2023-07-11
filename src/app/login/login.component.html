@@ -1,0 +1,32 @@
+<h1 class="fs-3 mt-3">{{data}}</h1>
+<div class="pic">
+    <!-- <img src="https://i.postimg.cc/0265n9b5/etienne-martin-2-K82gx9-Uk8-unsplash.jpg"> -->
+    <div class="signin">
+      <div class="container">
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                Signin
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label for="account-number">Account Number</label>
+                    <input (change)="acnoChange($event)" name="acno" type="text" class="form-control" id="account-number" [placeholder]="pdata">
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input (change)="passChange($event)" name="pass" type="password" class="form-control" id="password" placeholder="Enter your password">
+                  </div>
+                  <button (click)="login()" type="login" class="btn btn-primary">Login</button>
+                  <a href="#" style="text-decoration: none;color: black;">dont have account?<strong>create account</strong> </a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+</div>

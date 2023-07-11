@@ -1,0 +1,20 @@
+.nav{
+    background-color: cadetblue;
+    width: 100vw;
+    height: 8vh;
+}
+.icon{
+    font-size: 50px;
+    /* position: relative; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.bankname{
+    font-size: 40px;
+    color: aliceblue;
+}
+.obnk{
+    font-size: 20px;
+    padding-top: 23px;
+}

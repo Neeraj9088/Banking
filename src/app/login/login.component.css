@@ -1,0 +1,13 @@
+*{
+    overflow: hidden;
+}
+
+.pic{
+    background-image: url(https://i.postimg.cc/0265n9b5/etienne-martin-2-K82gx9-Uk8-unsplash.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+.signin{
+    float: right;
+    width: 70vw;
+}

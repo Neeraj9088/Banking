@@ -1,0 +1,122 @@
+<!-- leftside -->
+<div class="leftside" >
+    
+    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="viewprofile"  style="margin-top: 10px; padding-top: 10px;padding-left: 40px;font-size: 30px;">
+        <a> View Profile <i class="fa-solid fa-user fa-shake"></i></a>
+        
+    </button>
+    
+    <button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" class="Balenq"  style="margin-top: 10px; padding-top: 10px;padding-left: 30px;font-size: 30px;">
+        <a> Balance Enquiry <i class="fa-solid fa-sack-dollar"></i></a>
+    </button>
+    
+    
+    <button  data-bs-toggle="modal" data-bs-target="#exampleModal1" class="mont"  style="margin-top: 10px; padding-top: 10px;padding-left: 30px;font-size: 30px;">
+            <a><span>Money Transfer <i class="fa-solid fa-money-bill-transfer"></i></span></a>
+    </button>
+   
+    
+    <button class="accst"  style="margin-top: 10px; padding-top: 10px;padding-left: 30px;font-size: 30px;">
+            <a><span>Account Statement <i class="fa-solid fa-folder"></i></span></a>
+    </button>
+    
+    
+    <button class="log"  style="margin-top: 10px; padding-top: 10px;padding-left: 80px;font-size: 30px;">
+            <a><span>Logout <i class="fa-solid fa-right-from-bracket"></i></span></a>
+    </button>
+    
+   
+    <button class="del"  style="margin-top: 10px; padding-top: 10px;padding-left: 50px;font-size: 30px;">
+        <a><span>Delete Account <i class="fa-solid fa-user-slash"></i></span></a>
+    </button>
+   
+   
+    <button class="icon"  style="margin-top: 10px; padding-top: 10px;padding-left: 125px; font-size: 40px;">
+        <a><i class="fa-solid fa-hand-holding-dollar"></i></a>
+    </button>
+
+    
+</div>
+<!-- right side -->
+<div class="rightside" style="font-size: 30px;"> Enjoy Net banking With <span style="color: blue;"> ICICI </span> </div>
+
+
+<div class="modal-body">
+    
+  
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="text-center">
+                <img class="w-50" src="https://i.postimg.cc/mZdhFrMw/user-icon.png" alt="">
+            </div>
+            <div class="mt-5">
+              <h4>User name:Name</h4>
+              <h4>Account Number:1234</h4>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Balance Details</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div>
+            <img src="https://i.postimg.cc/qvfx3QH4/dollars-gbe5569058-1280copy.jpg" alt="">
+        </div>
+      <div>
+        <h3>hi "username"</h3> 
+        <p>
+            your current balance in acc no 1234 is
+        </p>
+        <h4 style="color: blue;" class="mt-4">balance</h4>
+    </div>
+      <div class="dropdown mt-3">
+      
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 money transfer -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div style="background-color: cadetblue;" class="modal-header">
+          <h1  class="modal-title fs-5" id="exampleModalLabel">Money Transfer</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img class="w-100" src="https://i.postimg.cc/tgwHFYyK/30011156.jpg" alt="">
+          <form action="">
+            <input type="text" id="acc" name="acc1" class="form-control mt-3" placeholder="recepient account number">
+            <input type="text" id="amt1" name="amt2" class="form-control mt-3" placeholder="amount to transfer">
+            <input type="password" id="pp1" name="pp2" class="form-control mt-3" placeholder="password">
+            <div>
+                <button type="button" class="btn btn-primary w-100">Transfer</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
